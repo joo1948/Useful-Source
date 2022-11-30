@@ -1,0 +1,11 @@
+<dependency>
+    <groupId>com.nimbusds</groupId>
+    <artifactId>nimbus-jose-jwt</artifactId>
+    <version>4.23</version>
+    <exclusions>
+	<exclusion>
+		 <groupId>commons-io</groupId>
+		 <artifactId>commons-io</artifactId>
+	</exclusion>
+    </exclusions>
+</dependency>
